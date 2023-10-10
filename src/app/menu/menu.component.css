@@ -1,0 +1,42 @@
+/* menu.component.css */
+.menu-container {
+    max-width: 1050px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+  }
+  
+nav {
+    width: 1000px;
+    text-align: center; 
+
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente los elementos <li> */
+  }
+  
+  li {
+    margin: 0 30px; /* Agregar espacio entre los elementos <li> */
+    width: 150px;
+  }
+  
+  a {
+    font-size: 20px;
+    display: block;
+    color: #A4A4C1; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  

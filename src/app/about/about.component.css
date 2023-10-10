@@ -1,0 +1,46 @@
+/* about.component.css */
+
+.about-container {
+    max-width: 1050px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .about-content {
+    padding: 20px;
+    height: 610px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-left{
+    margin-left: 80px;
+    max-width: 300px;
+    height: 400px;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .about-right{
+    margin-right: 20px;
+    max-width: 800px;
+    flex: 1;
+    padding: 10px;
+  }
+
+  h2 {
+    color: #A4A4C1; 
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Matter-Regular', sans-serif;
+  }
+  
+  p {
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 1.6;
+    color: #f6f6f6;
+    font-family: 'Matter-Regular', sans-serif;
+  }
+  

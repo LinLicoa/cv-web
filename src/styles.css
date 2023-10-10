@@ -4,3 +4,14 @@ body {
   padding: 0;
   background-color: #1f2028;
 }
+
+@font-face {
+  font-family: 'Matter-Regular';
+  src: url('../assets/fonts/Matter-Regular.otf') format('opentype');
+  /* Puedes agregar otros formatos según sea necesario */
+}
+
+body {
+  font-family: 'Matter-Regular', sans-serif;
+}
+
